@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{{ page.title }} | Sociolinguistics Lab</title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="/css/screen.css">
+        <style type="text/css">
+            .{{ page.current }}, .{{ page.current }}:hover {
+                border-top: 3px solid #F35958;
+                color: #F35958;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- Add your site or application content here -->
+        <div class="site-frame header-frame"><div class="header">{% include header.html %}</div></div>
+        <div class="site-frame"><div class="content">{{ content }}</div></div>
+        <div class="site-frame"><div class="footer">{% include footer.html %}</div></div>
+        
+    </body>
+</html>

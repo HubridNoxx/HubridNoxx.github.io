@@ -1,0 +1,26 @@
+body {
+    font: $font-stack;
+}
+
+.site-frame {
+    width: 100%;
+}
+
+.header-frame {
+    background-color: $header-bkg;
+    border-bottom: $light-gray-border;
+    
+}
+
+.header, .content, .footer {
+    margin: 0 auto;
+    width: $site-width;
+}
+
+.header {
+    padding: 30px 0;
+}
+
+.content {
+    margin: 40px auto;
+}

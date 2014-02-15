@@ -1,0 +1,9 @@
+footer {
+    border-top: $light-gray-border;
+    color: $footer-color;
+    padding: 20px 0;
+    a {
+        border-bottom: 1px solid #999;
+        padding-bottom: 3px;
+    }
+}
