@@ -141,3 +141,48 @@ footer a {
   border-bottom: 1px solid #999;
   padding-bottom: 3px;
 }
+
+/* line 1, ../_sass/contact.scss */
+input, textarea {
+  font: 15px Helvetica Neue, Helvetica, sans-serif;
+  border: 1px solid #ddd;
+  display: block;
+  color: #999999;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 5px 10px;
+  margin: 0 0 20px 0;
+}
+/* line 14, ../_sass/contact.scss */
+input:hover, textarea:hover {
+  border-color: #ccc;
+}
+/* line 17, ../_sass/contact.scss */
+input:focus, textarea:focus {
+  border-color: #bbb;
+  color: #333;
+  outline: none;
+}
+
+/* line 24, ../_sass/contact.scss */
+input[type=text] {
+  height: 32px;
+  width: 250px;
+}
+
+/* line 29, ../_sass/contact.scss */
+input[type=submit] {
+  cursor: pointer;
+  border: none;
+  border-bottom: 2px solid #2a76b0;
+  padding: 10px 20px;
+  background-color: #399BE6;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  background-image: none;
+}

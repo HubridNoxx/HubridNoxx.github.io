@@ -1,0 +1,39 @@
+input, textarea {
+    font: $font-stack;
+    border: 1px solid #ddd;
+    display: block;
+    color: #999999;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px 10px;
+    margin: 0 0 20px 0;
+    &:hover {
+        border-color: #ccc;
+    }
+    &:focus {
+        border-color: #bbb;
+        color: #333;
+        outline: none;
+    }
+}
+
+input[type=text] {
+    height: 32px;
+    width: 250px;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    border: none;
+    border-bottom: 2px solid #2a76b0;
+    padding: 10px 20px;
+    background-color: #399BE6;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    background-image: none;
+}
