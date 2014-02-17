@@ -6,6 +6,7 @@
         <title>Home | Sociolinguistics Lab</title>
         <meta name="description" content="">
         <link rel="stylesheet" href="/css/screen.css">
+        <link rel="stylesheet" href="/css/jquery.bxslider.css">
         <style type="text/css">
             .nav-1, .nav-1:hover {
                 border-top: 3px solid #F35958;
@@ -13,6 +14,8 @@
                 font-weight: bold;
             }
         </style>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="../js/jquery.bxslider.js"></script>
     </head>
     <body>
 
@@ -29,15 +32,30 @@
         <a class="nav-7" href="/contactus">Contact Us</a>
     </nav>
 </header></div></div>
-        <div class="site-frame"><div class="content"># Hello World
-
-Proin eleifend libero accumsan felis luctus nec consectetur purus commodo. \
-Phasellus sodales est nec massa imperdiet commodo. Maecenas risus nulla, pl\
-acerat vel vestibulum vel, dapibus quis libero.
-
-Donec libero libero, bibendum non condimentum ac, ullamcorper at sapien. Du\
-is feugiat urna vel justo cursus facilisis. Vivamus ligula dui, convallis a\
- varius vitae, facilisis eget magna.</div></div>
+        <div class="site-frame">
+            <div class="content">
+                <ul class="bxslider">
+                    <li>
+                        <img src="http://localhost:8080/wordpress/wp-content/uploads/2013/11/slide_1.png" /><div class="_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tellus neque, fringilla eu neque ullamcorper, vehicula tincidunt quam. Donec facilisis, tortor vitae posuere vulputate, arcu lectus semper lectus, at pulvinar elit urna sed est. Ut ac pretium ligula.</div>
+                    </li>
+                    <li>
+                        <img src="http://localhost:8080/wordpress/wp-content/uploads/2013/11/slide_2.png" /><div class="_description">Ut ac pretium ligula. Fusce placerat pharetra sollicitudin. Cras non neque convallis quam ultrices elementum vel id libero. Nulla pretium vehicula libero, et iaculis enim aliquet ut. Nulla facilisi.</div>
+                    </li>
+                    <li>
+                        <img src="http://localhost:8080/wordpress/wp-content/uploads/2013/11/slide_3.png" /><div class="_description">Etiam tellus neque, fringilla eu neque ullamcorper, vehicula tincidunt quam. Donec facilisis, tortor vitae posuere vulputate, arcu lectus semper lectus, at pulvinar elit urna sed est. Ut ac pretium ligula.</div>
+                    </li>
+                </ul>
+                <script>
+                    $(document).ready(function(){
+                        $('.bxslider').bxSlider({
+                            auto: true
+                        });
+                    });
+                </script>
+            <h1>Announcements</h1>
+            
+            </div>
+        </div>
         <div class="site-frame"><div class="footer"><footer>designed and maintained by <a href="https://github.com/HubridNoxx/geeg.ee">Zack Elliott</a></footer></div></div>
         
     </body>

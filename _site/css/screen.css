@@ -71,26 +71,27 @@ body {
 /* line 5, ../_sass/_layout.scss */
 .site-frame {
   width: 100%;
+  height: auto;
 }
 
-/* line 9, ../_sass/_layout.scss */
+/* line 10, ../_sass/_layout.scss */
 .header-frame {
   background-color: #eeeeee;
   border-bottom: 1px solid #dddddd;
 }
 
-/* line 15, ../_sass/_layout.scss */
+/* line 16, ../_sass/_layout.scss */
 .header, .content, .footer {
   margin: 0 auto;
   width: 960px;
 }
 
-/* line 20, ../_sass/_layout.scss */
+/* line 21, ../_sass/_layout.scss */
 .header {
   padding: 30px 0;
 }
 
-/* line 24, ../_sass/_layout.scss */
+/* line 25, ../_sass/_layout.scss */
 .content {
   margin: 40px auto;
 }
@@ -140,6 +141,76 @@ footer {
 footer a {
   border-bottom: 1px solid #999;
   padding-bottom: 3px;
+}
+
+/* line 1, ../_sass/projects.scss */
+._project {
+  width: 960px;
+  margin: 0 0 40px 0;
+}
+
+/* line 6, ../_sass/projects.scss */
+._project-img {
+  display: inline-grid;
+  width: 400px;
+  height: 500px;
+}
+
+/* line 12, ../_sass/projects.scss */
+._project-text {
+  float: right;
+  width: 560px;
+  height: 500px;
+}
+
+/* line 18, ../_sass/projects.scss */
+._project-header {
+  width: 540px;
+  background-color: #eeeeee;
+  padding: 10px 0 10px 20px;
+  margin-bottom: 10px;
+}
+
+/* line 25, ../_sass/projects.scss */
+._project-header h1 {
+  margin: 0 0 5px 0;
+  color: #000000;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+/* line 32, ../_sass/projects.scss */
+._project-header h2 {
+  margin: 0;
+  color: #999999;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+/* line 39, ../_sass/projects.scss */
+._project-text p {
+  width: 540px;
+  padding: 10px 0 10px 20px;
+  line-height: 24px;
+  color: #999;
+}
+
+/* line 46, ../_sass/projects.scss */
+._project-pub-link {
+  border: none;
+  display: inline-block;
+  margin: 10px 0 0 20px;
+  font-weight: bold;
+  background-color: #333333;
+  color: #ffffff !important;
+  padding: 10px;
+  border-left: 5px solid #399BE6;
+}
+/* line 55, ../_sass/projects.scss */
+._project-pub-link:hover {
+  color: #ffffff !important;
+  background-color: #000000;
+  border-left-color: #F35958;
 }
 
 /* line 1, ../_sass/contact.scss */

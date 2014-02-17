@@ -6,6 +6,7 @@
         <title>{{ page.title }} | Sociolinguistics Lab</title>
         <meta name="description" content="">
         <link rel="stylesheet" href="/css/screen.css">
+        <link rel="stylesheet" href="/css/jquery.bxslider.css">
         <style type="text/css">
             .{{ page.current }}, .{{ page.current }}:hover {
                 border-top: 3px solid #F35958;
@@ -13,12 +14,37 @@
                 font-weight: bold;
             }
         </style>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="../js/jquery.bxslider.js"></script>
     </head>
     <body>
 
         <!-- Add your site or application content here -->
         <div class="site-frame header-frame"><div class="header">{% include header.html %}</div></div>
-        <div class="site-frame"><div class="content">{{ content }}</div></div>
+        <div class="site-frame">
+            <div class="content">
+                <ul class="bxslider">
+                    <li>
+                        <img src="http://localhost:8080/wordpress/wp-content/uploads/2013/11/slide_1.png" /><div class="_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tellus neque, fringilla eu neque ullamcorper, vehicula tincidunt quam. Donec facilisis, tortor vitae posuere vulputate, arcu lectus semper lectus, at pulvinar elit urna sed est. Ut ac pretium ligula.</div>
+                    </li>
+                    <li>
+                        <img src="http://localhost:8080/wordpress/wp-content/uploads/2013/11/slide_2.png" /><div class="_description">Ut ac pretium ligula. Fusce placerat pharetra sollicitudin. Cras non neque convallis quam ultrices elementum vel id libero. Nulla pretium vehicula libero, et iaculis enim aliquet ut. Nulla facilisi.</div>
+                    </li>
+                    <li>
+                        <img src="http://localhost:8080/wordpress/wp-content/uploads/2013/11/slide_3.png" /><div class="_description">Etiam tellus neque, fringilla eu neque ullamcorper, vehicula tincidunt quam. Donec facilisis, tortor vitae posuere vulputate, arcu lectus semper lectus, at pulvinar elit urna sed est. Ut ac pretium ligula.</div>
+                    </li>
+                </ul>
+                <script>
+                    $(document).ready(function(){
+                        $('.bxslider').bxSlider({
+                            auto: true
+                        });
+                    });
+                </script>
+            <h1>{{ page.header }}</h1>
+            {{ content }}
+            </div>
+        </div>
         <div class="site-frame"><div class="footer">{% include footer.html %}</div></div>
         
     </body>
