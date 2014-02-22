@@ -1,0 +1,38 @@
+/* line 1, ../_sass/people.scss */
+.people {
+  height: 940px;
+}
+/* line 3, ../_sass/people.scss */
+.people .person {
+  width: 50%;
+  float: left;
+  margin-bottom: 40px;
+}
+/* line 7, ../_sass/people.scss */
+.people .person img {
+  float: left;
+  width: 120px;
+}
+/* line 11, ../_sass/people.scss */
+.people .person .info {
+  float: left;
+  width: 320px;
+  margin: 0 20px;
+}
+/* line 15, ../_sass/people.scss */
+.people .person .info h2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+/* line 19, ../_sass/people.scss */
+.people .person .info a.email {
+  display: block;
+  margin: 10px 0 25px 0;
+  color: #666;
+}
+/* line 24, ../_sass/people.scss */
+.people .person .info span {
+  display: block;
+  color: #999;
+  line-height: 20px;
+}
