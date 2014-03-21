@@ -131,6 +131,10 @@ h1 {
   font-weight: bold;
   margin-bottom: 20px;
 }
+/* line 5, ../_sass/content.scss */
+h1 i {
+  margin-right: 10px;
+}
 
 /* line 1, ../_sass/footer.scss */
 footer {
@@ -170,13 +174,21 @@ footer a {
   font-weight: bold;
   font-size: 20px;
 }
-/* line 19, ../_sass/people.scss */
-.people .person .info a.email {
+/* line 18, ../_sass/people.scss */
+.people .person .info h2:hover {
+  color: #399BE6;
+}
+/* line 22, ../_sass/people.scss */
+.people .person .info h3 {
   display: block;
   margin: 10px 0 25px 0;
   color: #666;
 }
-/* line 24, ../_sass/people.scss */
+/* line 26, ../_sass/people.scss */
+.people .person .info h3 a.email:hover {
+  color: #333;
+}
+/* line 30, ../_sass/people.scss */
 .people .person .info span {
   display: block;
   color: #999;
@@ -252,9 +264,13 @@ footer a {
   background-color: #000000;
   border-left-color: #F35958;
 }
+/* line 60, ../_sass/projects.scss */
+._project-pub-link i {
+  margin-right: 10px;
+}
 
 /* line 1, ../_sass/contact.scss */
-input, textarea {
+input, textarea, button {
   font: 15px Helvetica Neue, Helvetica, sans-serif;
   border: 1px solid #ddd;
   display: block;
@@ -269,11 +285,11 @@ input, textarea {
   margin: 0 0 20px 0;
 }
 /* line 14, ../_sass/contact.scss */
-input:hover, textarea:hover {
+input:hover, textarea:hover, button:hover {
   border-color: #ccc;
 }
 /* line 17, ../_sass/contact.scss */
-input:focus, textarea:focus {
+input:focus, textarea:focus, button:focus {
   border-color: #bbb;
   color: #333;
   outline: none;
@@ -286,7 +302,7 @@ input[type=text] {
 }
 
 /* line 29, ../_sass/contact.scss */
-input[type=submit] {
+button {
   cursor: pointer;
   border: none;
   border-bottom: 2px solid #2a76b0;
@@ -296,4 +312,12 @@ input[type=submit] {
   color: #ffffff;
   font-weight: bold;
   background-image: none;
+}
+/* line 39, ../_sass/contact.scss */
+button:hover {
+  border-color: #2a76b0;
+}
+/* line 42, ../_sass/contact.scss */
+button i {
+  margin-right: 7px;
 }

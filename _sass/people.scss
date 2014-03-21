@@ -15,11 +15,17 @@
             h2 {
                 font-weight: bold;
                 font-size: 20px;
+                &:hover {
+                    color: #399BE6;
+                }
             }
-            a.email {
+            h3 {
                 display: block;
                 margin: 10px 0 25px 0;
                 color: #666;
+                a.email:hover {
+                    color: #333;
+                }
             }
             span {
                 display: block;

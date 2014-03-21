@@ -1,4 +1,4 @@
-input, textarea {
+input, textarea, button {
     font: $font-stack;
     border: 1px solid #ddd;
     display: block;
@@ -26,7 +26,7 @@ input[type=text] {
     width: 250px;
 }
 
-input[type=submit] {
+button {
     cursor: pointer;
     border: none;
     border-bottom: 2px solid #2a76b0;
@@ -36,4 +36,10 @@ input[type=submit] {
     color: #ffffff;
     font-weight: bold;
     background-image: none;
+    &:hover {
+        border-color: #2a76b0;
+    }
+    i {
+        margin-right: 7px;
+    }
 }

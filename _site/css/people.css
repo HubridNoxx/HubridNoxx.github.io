@@ -24,13 +24,21 @@
   font-weight: bold;
   font-size: 20px;
 }
-/* line 19, ../_sass/people.scss */
-.people .person .info a.email {
+/* line 18, ../_sass/people.scss */
+.people .person .info h2:hover {
+  color: #399BE6;
+}
+/* line 22, ../_sass/people.scss */
+.people .person .info h3 {
   display: block;
   margin: 10px 0 25px 0;
   color: #666;
 }
-/* line 24, ../_sass/people.scss */
+/* line 26, ../_sass/people.scss */
+.people .person .info h3 a.email:hover {
+  color: #333;
+}
+/* line 30, ../_sass/people.scss */
 .people .person .info span {
   display: block;
   color: #999;
