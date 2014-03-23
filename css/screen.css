@@ -150,45 +150,52 @@ footer a {
 
 /* line 1, ../_sass/people.scss */
 .people {
-  height: 940px;
+  height: 1020px;
 }
 /* line 3, ../_sass/people.scss */
 .people .person {
-  width: 50%;
+  width: 435px;
+  border-right: 5px solid transparent;
   float: left;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  padding: 20px;
 }
-/* line 7, ../_sass/people.scss */
+/* line 9, ../_sass/people.scss */
+.people .person:hover {
+  background-color: #eee;
+  border-right-color: #ddd;
+}
+/* line 12, ../_sass/people.scss */
+.people .person:hover h2 {
+  color: #399BE6;
+}
+/* line 16, ../_sass/people.scss */
 .people .person img {
   float: left;
   width: 120px;
 }
-/* line 11, ../_sass/people.scss */
+/* line 20, ../_sass/people.scss */
 .people .person .info {
   float: left;
-  width: 320px;
-  margin: 0 20px;
+  width: 280px;
+  margin-left: 20px;
 }
-/* line 15, ../_sass/people.scss */
+/* line 24, ../_sass/people.scss */
 .people .person .info h2 {
   font-weight: bold;
   font-size: 20px;
 }
-/* line 18, ../_sass/people.scss */
-.people .person .info h2:hover {
-  color: #399BE6;
-}
-/* line 22, ../_sass/people.scss */
+/* line 28, ../_sass/people.scss */
 .people .person .info h3 {
   display: block;
   margin: 10px 0 25px 0;
   color: #666;
 }
-/* line 26, ../_sass/people.scss */
+/* line 32, ../_sass/people.scss */
 .people .person .info h3 a.email:hover {
   color: #333;
 }
-/* line 30, ../_sass/people.scss */
+/* line 36, ../_sass/people.scss */
 .people .person .info span {
   display: block;
   color: #999;
