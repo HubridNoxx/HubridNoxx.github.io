@@ -1,5 +1,14 @@
+.sub-h1 {
+    color: #333;
+    font-weight: normal;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
 .people {
-    height: 1020px;
+    width: 960px;
+    float: left;
     .person {
         width: 435px;
         border-right: 5px solid transparent;
@@ -16,6 +25,14 @@
         img {
             float: left;
             width: 120px;
+            border-radius: 100px;
+            -moz-border-radius: 100px;
+            -webkit-border-radius: 100px;
+        }
+        > i { // Placeholder
+            float: left;
+            padding: 22px 30px;
+            color: #999;
         }
         .info {
             float: left;

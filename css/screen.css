@@ -140,19 +140,32 @@ h1 i {
 footer {
   border-top: 1px solid #dddddd;
   color: #999999;
+  margin-top: 20px;
   padding: 20px 0;
+  float: left;
+  width: 100%;
 }
-/* line 5, ../_sass/footer.scss */
+/* line 8, ../_sass/footer.scss */
 footer a {
   border-bottom: 1px solid #999;
   padding-bottom: 3px;
 }
 
 /* line 1, ../_sass/people.scss */
-.people {
-  height: 1020px;
+.sub-h1 {
+  color: #333;
+  font-weight: normal;
+  font-size: 18px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
 }
-/* line 3, ../_sass/people.scss */
+
+/* line 9, ../_sass/people.scss */
+.people {
+  width: 960px;
+  float: left;
+}
+/* line 12, ../_sass/people.scss */
 .people .person {
   width: 435px;
   border-right: 5px solid transparent;
@@ -160,42 +173,51 @@ footer a {
   margin-bottom: 20px;
   padding: 20px;
 }
-/* line 9, ../_sass/people.scss */
+/* line 18, ../_sass/people.scss */
 .people .person:hover {
   background-color: #eee;
   border-right-color: #ddd;
 }
-/* line 12, ../_sass/people.scss */
+/* line 21, ../_sass/people.scss */
 .people .person:hover h2 {
   color: #399BE6;
 }
-/* line 16, ../_sass/people.scss */
+/* line 25, ../_sass/people.scss */
 .people .person img {
   float: left;
   width: 120px;
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
 }
-/* line 20, ../_sass/people.scss */
+/* line 32, ../_sass/people.scss */
+.people .person > i {
+  float: left;
+  padding: 22px 30px;
+  color: #999;
+}
+/* line 37, ../_sass/people.scss */
 .people .person .info {
   float: left;
   width: 280px;
   margin-left: 20px;
 }
-/* line 24, ../_sass/people.scss */
+/* line 41, ../_sass/people.scss */
 .people .person .info h2 {
   font-weight: bold;
   font-size: 20px;
 }
-/* line 28, ../_sass/people.scss */
+/* line 45, ../_sass/people.scss */
 .people .person .info h3 {
   display: block;
   margin: 10px 0 25px 0;
   color: #666;
 }
-/* line 32, ../_sass/people.scss */
+/* line 49, ../_sass/people.scss */
 .people .person .info h3 a.email:hover {
   color: #333;
 }
-/* line 36, ../_sass/people.scss */
+/* line 53, ../_sass/people.scss */
 .people .person .info span {
   display: block;
   color: #999;
@@ -211,7 +233,7 @@ footer a {
 /* line 6, ../_sass/projects.scss */
 ._project-img {
   display: inline-grid;
-  width: 400px;
+  width: 395px;
   height: 500px;
 }
 
@@ -241,7 +263,7 @@ footer a {
 /* line 32, ../_sass/projects.scss */
 ._project-header h2 {
   margin: 0;
-  color: #999999;
+  color: #999;
   font-weight: normal;
   font-size: 15px;
 }
@@ -274,6 +296,39 @@ footer a {
 /* line 60, ../_sass/projects.scss */
 ._project-pub-link i {
   margin-right: 10px;
+}
+
+/* line 1, ../_sass/publications.scss */
+.publications li {
+  float: left;
+  margin-bottom: 20px;
+}
+/* line 4, ../_sass/publications.scss */
+.publications li span {
+  line-height: 22px;
+  color: #666;
+  width: 840px;
+  float: left;
+  margin-right: 20px;
+}
+/* line 11, ../_sass/publications.scss */
+.publications li a {
+  float: left;
+  width: 95px;
+  line-height: 44px;
+  background-color: #eee;
+  height: 44px;
+  text-align: center;
+  font-weight: bold;
+  border-left: 5px solid #399BE6;
+}
+/* line 20, ../_sass/publications.scss */
+.publications li a i {
+  margin-right: 12px;
+}
+/* line 23, ../_sass/publications.scss */
+.publications li a:hover {
+  border-color: #F35958;
 }
 
 /* line 1, ../_sass/contact.scss */
