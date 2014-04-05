@@ -14,22 +14,20 @@
 }
 /* line 12, ../_sass/people.scss */
 .people .person {
-  width: 435px;
-  border-right: 5px solid transparent;
+  width: 440px;
   float: left;
   margin-bottom: 20px;
   padding: 20px;
 }
-/* line 18, ../_sass/people.scss */
+/* line 17, ../_sass/people.scss */
 .people .person:hover {
   background-color: #eee;
-  border-right-color: #ddd;
 }
-/* line 21, ../_sass/people.scss */
+/* line 19, ../_sass/people.scss */
 .people .person:hover h2 {
   color: #399BE6;
 }
-/* line 25, ../_sass/people.scss */
+/* line 23, ../_sass/people.scss */
 .people .person img {
   float: left;
   width: 120px;
@@ -37,34 +35,34 @@
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
 }
-/* line 32, ../_sass/people.scss */
+/* line 30, ../_sass/people.scss */
 .people .person > i {
   float: left;
   padding: 22px 30px;
   color: #999;
 }
-/* line 37, ../_sass/people.scss */
+/* line 35, ../_sass/people.scss */
 .people .person .info {
   float: left;
   width: 280px;
   margin-left: 20px;
 }
-/* line 41, ../_sass/people.scss */
+/* line 39, ../_sass/people.scss */
 .people .person .info h2 {
   font-weight: bold;
   font-size: 20px;
 }
-/* line 45, ../_sass/people.scss */
+/* line 43, ../_sass/people.scss */
 .people .person .info h3 {
   display: block;
   margin: 10px 0 25px 0;
   color: #666;
 }
-/* line 49, ../_sass/people.scss */
+/* line 47, ../_sass/people.scss */
 .people .person .info h3 a.email:hover {
   color: #333;
 }
-/* line 53, ../_sass/people.scss */
+/* line 51, ../_sass/people.scss */
 .people .person .info span {
   display: block;
   color: #999;

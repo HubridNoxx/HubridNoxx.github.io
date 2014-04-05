@@ -9,8 +9,14 @@ body {
 
 .header-frame {
     background-color: $header-bkg;
-    border-bottom: $light-gray-border;
-    
+    border-bottom: 3px solid #ddd;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    height: 114px;
+    -webkit-transition: height 0.5s;
+    -moz-transition: height 0.5s;
+    transition: height 0.5s; 
 }
 
 .header, .content, .footer {
@@ -20,8 +26,22 @@ body {
 
 .header {
     padding: 30px 0;
+    -webkit-transition: padding 0.5s;
+    -moz-transition: padding 0.5s;
+    transition: padding 0.5s; 
 }
 
 .content {
-    margin: 40px auto;
+    margin: 154px auto 0 auto;
+}
+
+// Scroll effect
+.header-frame.shrink {
+    height: 60px;
+    .header {
+        padding: 5px 0;
+        .cutoff {
+            width: 50px;
+        }
+    }
 }

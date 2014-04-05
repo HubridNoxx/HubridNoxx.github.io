@@ -77,23 +77,46 @@ body {
 /* line 10, ../_sass/_layout.scss */
 .header-frame {
   background-color: #eeeeee;
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 3px solid #ddd;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  height: 114px;
+  -webkit-transition: height 0.5s;
+  -moz-transition: height 0.5s;
+  transition: height 0.5s;
 }
 
-/* line 16, ../_sass/_layout.scss */
+/* line 22, ../_sass/_layout.scss */
 .header, .content, .footer {
   margin: 0 auto;
   width: 960px;
 }
 
-/* line 21, ../_sass/_layout.scss */
+/* line 27, ../_sass/_layout.scss */
 .header {
   padding: 30px 0;
+  -webkit-transition: padding 0.5s;
+  -moz-transition: padding 0.5s;
+  transition: padding 0.5s;
 }
 
-/* line 25, ../_sass/_layout.scss */
+/* line 34, ../_sass/_layout.scss */
 .content {
-  margin: 40px auto;
+  margin: 154px auto 0 auto;
+}
+
+/* line 39, ../_sass/_layout.scss */
+.header-frame.shrink {
+  height: 60px;
+}
+/* line 41, ../_sass/_layout.scss */
+.header-frame.shrink .header {
+  padding: 5px 0;
+}
+/* line 43, ../_sass/_layout.scss */
+.header-frame.shrink .header .cutoff {
+  width: 50px;
 }
 
 /* line 1, ../_sass/_global.scss */
@@ -105,23 +128,35 @@ a {
 /* line 1, ../_sass/header.scss */
 .logo {
   height: 50px;
+  -webkit-transition: height 0.5s;
+  -moz-transition: height 0.5s;
+  transition: height 0.5s;
 }
 
-/* line 5, ../_sass/header.scss */
+/* line 8, ../_sass/header.scss */
+.cutoff {
+  overflow: hidden;
+  width: 203px;
+  float: left;
+  -webkit-transition: width 0.5s;
+  -moz-transition: width 0.5s;
+  transition: width 0.5s;
+}
+
+/* line 17, ../_sass/header.scss */
 nav {
   float: right;
   line-height: 50px;
   font-size: 17px;
 }
-/* line 9, ../_sass/header.scss */
+/* line 21, ../_sass/header.scss */
 nav a {
   padding: 10px;
   margin: 0 2px;
   color: #999;
 }
-/* line 13, ../_sass/header.scss */
+/* line 25, ../_sass/header.scss */
 nav a:hover {
-  border-top: 3px solid #ccc;
   color: #666;
 }
 
@@ -167,22 +202,20 @@ footer a {
 }
 /* line 12, ../_sass/people.scss */
 .people .person {
-  width: 435px;
-  border-right: 5px solid transparent;
+  width: 440px;
   float: left;
   margin-bottom: 20px;
   padding: 20px;
 }
-/* line 18, ../_sass/people.scss */
+/* line 17, ../_sass/people.scss */
 .people .person:hover {
   background-color: #eee;
-  border-right-color: #ddd;
 }
-/* line 21, ../_sass/people.scss */
+/* line 19, ../_sass/people.scss */
 .people .person:hover h2 {
   color: #399BE6;
 }
-/* line 25, ../_sass/people.scss */
+/* line 23, ../_sass/people.scss */
 .people .person img {
   float: left;
   width: 120px;
@@ -190,34 +223,34 @@ footer a {
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
 }
-/* line 32, ../_sass/people.scss */
+/* line 30, ../_sass/people.scss */
 .people .person > i {
   float: left;
   padding: 22px 30px;
   color: #999;
 }
-/* line 37, ../_sass/people.scss */
+/* line 35, ../_sass/people.scss */
 .people .person .info {
   float: left;
   width: 280px;
   margin-left: 20px;
 }
-/* line 41, ../_sass/people.scss */
+/* line 39, ../_sass/people.scss */
 .people .person .info h2 {
   font-weight: bold;
   font-size: 20px;
 }
-/* line 45, ../_sass/people.scss */
+/* line 43, ../_sass/people.scss */
 .people .person .info h3 {
   display: block;
   margin: 10px 0 25px 0;
   color: #666;
 }
-/* line 49, ../_sass/people.scss */
+/* line 47, ../_sass/people.scss */
 .people .person .info h3 a.email:hover {
   color: #333;
 }
-/* line 53, ../_sass/people.scss */
+/* line 51, ../_sass/people.scss */
 .people .person .info span {
   display: block;
   color: #999;
