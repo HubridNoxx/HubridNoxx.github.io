@@ -10,12 +10,14 @@
     width: 960px;
     float: left;
     .person {
-        width: 440px;
+        width: 438px;
         float: left;
         margin-bottom: 20px;
         padding: 20px;
+        border: 1px solid #fff;
         &:hover {
             background-color: #eee;
+            border-color: #ddd;
             h2 {
                 color: #399BE6;
             }
