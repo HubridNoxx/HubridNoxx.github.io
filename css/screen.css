@@ -77,7 +77,7 @@ body {
 /* line 10, ../_sass/_layout.scss */
 .header-frame {
   background-color: #eeeeee;
-  border-bottom: 3px solid #ddd;
+  border-bottom: 1px solid #dddddd;
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -176,8 +176,9 @@ h1 {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
+  color: #333;
 }
-/* line 5, ../_sass/content.scss */
+/* line 6, ../_sass/content.scss */
 h1 i {
   margin-right: 10px;
 }
@@ -190,8 +191,9 @@ footer {
   padding: 20px 0;
   float: left;
   width: 100%;
+  font-size: 14px;
 }
-/* line 8, ../_sass/footer.scss */
+/* line 9, ../_sass/footer.scss */
 footer a {
   border-bottom: 1px solid #999;
   padding-bottom: 3px;
@@ -200,35 +202,40 @@ footer a {
 /* line 1, ../_sass/people.scss */
 .sub-h1 {
   color: #333;
-  font-weight: normal;
-  font-size: 18px;
+  font-weight: 300;
+  font-size: 15px;
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
+  text-transform: uppercase;
 }
 
-/* line 9, ../_sass/people.scss */
+/* line 10, ../_sass/people.scss */
 .people {
   width: 960px;
   float: left;
 }
-/* line 12, ../_sass/people.scss */
+/* line 13, ../_sass/people.scss */
 .people .person {
-  width: 438px;
+  width: 439px;
   float: left;
   margin-bottom: 20px;
   padding: 20px;
-  border: 1px solid #fff;
+  border-left: 1px solid #fff;
 }
-/* line 18, ../_sass/people.scss */
+/* line 19, ../_sass/people.scss */
 .people .person:hover {
   background-color: #eee;
   border-color: #ddd;
 }
-/* line 21, ../_sass/people.scss */
-.people .person:hover h2 {
+/* line 22, ../_sass/people.scss */
+.people .person:hover h2 > a {
   color: #399BE6;
 }
-/* line 25, ../_sass/people.scss */
+/* line 24, ../_sass/people.scss */
+.people .person:hover h2 > a:hover {
+  color: #F35958;
+}
+/* line 29, ../_sass/people.scss */
 .people .person img {
   float: left;
   width: 120px;
@@ -236,34 +243,34 @@ footer a {
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
 }
-/* line 32, ../_sass/people.scss */
+/* line 36, ../_sass/people.scss */
 .people .person > i {
   float: left;
   padding: 22px 30px;
   color: #999;
 }
-/* line 37, ../_sass/people.scss */
+/* line 41, ../_sass/people.scss */
 .people .person .info {
   float: left;
   width: 280px;
   margin-left: 20px;
 }
-/* line 41, ../_sass/people.scss */
+/* line 45, ../_sass/people.scss */
 .people .person .info h2 {
   font-weight: bold;
   font-size: 20px;
 }
-/* line 45, ../_sass/people.scss */
+/* line 49, ../_sass/people.scss */
 .people .person .info h3 {
   display: block;
   margin: 10px 0 25px 0;
   color: #666;
 }
-/* line 49, ../_sass/people.scss */
+/* line 53, ../_sass/people.scss */
 .people .person .info h3 a.email:hover {
   color: #333;
 }
-/* line 53, ../_sass/people.scss */
+/* line 57, ../_sass/people.scss */
 .people .person .info span {
   display: block;
   color: #999;
@@ -380,7 +387,7 @@ footer a {
 /* line 1, ../_sass/contact.scss */
 input, textarea, button {
   font: 15px Helvetica Neue, Helvetica, sans-serif;
-  border: 1px solid #ddd;
+  border: 1px solid #ccc;
   display: block;
   color: #999999;
   -webkit-border-radius: 5px;
@@ -394,11 +401,11 @@ input, textarea, button {
 }
 /* line 14, ../_sass/contact.scss */
 input:hover, textarea:hover, button:hover {
-  border-color: #ccc;
+  border-color: #bbb;
 }
 /* line 17, ../_sass/contact.scss */
 input:focus, textarea:focus, button:focus {
-  border-color: #bbb;
+  border-color: #999;
   color: #333;
   outline: none;
 }

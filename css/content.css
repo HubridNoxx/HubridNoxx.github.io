@@ -3,8 +3,9 @@ h1 {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
+  color: #333;
 }
-/* line 5, ../_sass/content.scss */
+/* line 6, ../_sass/content.scss */
 h1 i {
   margin-right: 10px;
 }

@@ -1,25 +1,29 @@
 .sub-h1 {
     color: #333;
-    font-weight: normal;
-    font-size: 18px;
+    font-weight: 300;
+    font-size: 15px;
     border-bottom: 1px solid #ddd;
     padding-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .people {
     width: 960px;
     float: left;
     .person {
-        width: 438px;
+        width: 439px;
         float: left;
         margin-bottom: 20px;
         padding: 20px;
-        border: 1px solid #fff;
+        border-left: 1px solid #fff;
         &:hover {
             background-color: #eee;
             border-color: #ddd;
-            h2 {
+            h2 > a {
                 color: #399BE6;
+                &:hover {
+                    color: #F35958;
+                }
             }
         }
         img {

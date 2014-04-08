@@ -9,7 +9,7 @@ body {
 
 .header-frame {
     background-color: $header-bkg;
-    border-bottom: 3px solid #ddd;
+    border-bottom: $light-gray-border;
     position: fixed;
     top: 0;
     z-index: 1000;
