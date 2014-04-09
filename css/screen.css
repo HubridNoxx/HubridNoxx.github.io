@@ -165,7 +165,7 @@ nav {
 nav a {
   padding: 10px;
   margin: 0 2px;
-  color: #999;
+  color: #999999;
 }
 /* line 26, ../_sass/header.scss */
 nav a:hover {
@@ -176,7 +176,7 @@ nav a:hover {
 h1 {
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   color: #333;
 }
 /* line 6, ../_sass/content.scss */
@@ -206,16 +206,34 @@ h1 i {
 footer {
   border-top: 1px solid #dddddd;
   color: #999999;
-  margin-top: 20px;
   padding: 20px 0;
   float: left;
   width: 100%;
   font-size: 14px;
+  text-align: right;
+  line-height: 30px;
 }
-/* line 9, ../_sass/footer.scss */
+/* line 10, ../_sass/footer.scss */
+footer span {
+  float: left;
+  line-height: 30px;
+  margin-left: 20px;
+}
+/* line 15, ../_sass/footer.scss */
+footer img {
+  float: left;
+  height: 30px;
+  opacity: 0.5;
+}
+/* line 20, ../_sass/footer.scss */
 footer a {
   border-bottom: 1px solid #999;
   padding-bottom: 3px;
+}
+/* line 23, ../_sass/footer.scss */
+footer a:hover {
+  color: #666;
+  border-color: #666;
 }
 
 /* line 1, ../_sass/people.scss */
@@ -354,16 +372,16 @@ footer a {
   background-color: #eee;
   height: 44px;
   text-align: center;
-  font-weight: bold;
-  border-left: 5px solid #399BE6;
+  font-weight: 300;
+  color: #399BE6;
 }
 /* line 20, ../_sass/publications.scss */
 .publications li a i {
-  margin-right: 12px;
+  margin-right: 10px;
 }
 /* line 23, ../_sass/publications.scss */
 .publications li a:hover {
-  border-color: #F35958;
+  color: #F35958;
 }
 
 /* line 1, ../_sass/contact.scss */
@@ -402,7 +420,7 @@ input[type=text] {
 button {
   cursor: pointer;
   border: none;
-  border-bottom: 2px solid #2a76b0;
+  border-bottom: 3px solid #2a76b0;
   padding: 10px 20px;
   background-color: #399BE6;
   font-size: 15px;

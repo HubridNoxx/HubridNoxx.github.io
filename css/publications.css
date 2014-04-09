@@ -19,14 +19,14 @@
   background-color: #eee;
   height: 44px;
   text-align: center;
-  font-weight: bold;
-  border-left: 5px solid #399BE6;
+  font-weight: 300;
+  color: #399BE6;
 }
 /* line 20, ../_sass/publications.scss */
 .publications li a i {
-  margin-right: 12px;
+  margin-right: 10px;
 }
 /* line 23, ../_sass/publications.scss */
 .publications li a:hover {
-  border-color: #F35958;
+  color: #F35958;
 }

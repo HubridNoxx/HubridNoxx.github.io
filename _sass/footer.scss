@@ -1,13 +1,28 @@
 footer {
     border-top: $light-gray-border;
     color: $footer-color;
-    margin-top: 20px;
     padding: 20px 0;
     float: left;
     width: 100%;
     font-size: 14px;
+    text-align: right;
+    line-height: 30px;
+    span {
+        float: left;
+        line-height: 30px;
+        margin-left: 20px;
+    }
+    img {
+        float: left;
+        height: 30px;
+        opacity: 0.5;
+    }
     a {
         border-bottom: 1px solid #999;
         padding-bottom: 3px;
+        &:hover {
+            color: #666;
+            border-color: #666;
+        }
     }
 }
