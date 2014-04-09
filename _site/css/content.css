@@ -9,3 +9,21 @@ h1 {
 h1 i {
   margin-right: 10px;
 }
+
+/* line 11, ../_sass/content.scss */
+.sub-h1 {
+  color: #333;
+  font-weight: 300;
+  font-size: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+/* line 18, ../_sass/content.scss */
+.sub-h1 span {
+  display: block;
+  margin-left: 23px;
+  padding-top: 5px;
+  text-transform: none;
+  color: #999;
+}

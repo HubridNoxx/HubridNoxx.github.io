@@ -159,14 +159,15 @@ nav {
   float: right;
   line-height: 50px;
   font-size: 17px;
+  font-weight: 300;
 }
-/* line 21, ../_sass/header.scss */
+/* line 22, ../_sass/header.scss */
 nav a {
   padding: 10px;
   margin: 0 2px;
   color: #999;
 }
-/* line 25, ../_sass/header.scss */
+/* line 26, ../_sass/header.scss */
 nav a:hover {
   color: #666;
 }
@@ -181,6 +182,24 @@ h1 {
 /* line 6, ../_sass/content.scss */
 h1 i {
   margin-right: 10px;
+}
+
+/* line 11, ../_sass/content.scss */
+.sub-h1 {
+  color: #333;
+  font-weight: 300;
+  font-size: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+/* line 18, ../_sass/content.scss */
+.sub-h1 span {
+  display: block;
+  margin-left: 23px;
+  padding-top: 5px;
+  text-transform: none;
+  color: #999;
 }
 
 /* line 1, ../_sass/footer.scss */
@@ -200,21 +219,11 @@ footer a {
 }
 
 /* line 1, ../_sass/people.scss */
-.sub-h1 {
-  color: #333;
-  font-weight: 300;
-  font-size: 15px;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
-  text-transform: uppercase;
-}
-
-/* line 10, ../_sass/people.scss */
 .people {
   width: 960px;
   float: left;
 }
-/* line 13, ../_sass/people.scss */
+/* line 4, ../_sass/people.scss */
 .people .person {
   width: 439px;
   float: left;
@@ -222,20 +231,20 @@ footer a {
   padding: 20px;
   border-left: 1px solid #fff;
 }
-/* line 19, ../_sass/people.scss */
+/* line 10, ../_sass/people.scss */
 .people .person:hover {
   background-color: #eee;
   border-color: #ddd;
 }
-/* line 22, ../_sass/people.scss */
+/* line 13, ../_sass/people.scss */
 .people .person:hover h2 > a {
   color: #399BE6;
 }
-/* line 24, ../_sass/people.scss */
+/* line 15, ../_sass/people.scss */
 .people .person:hover h2 > a:hover {
   color: #F35958;
 }
-/* line 29, ../_sass/people.scss */
+/* line 20, ../_sass/people.scss */
 .people .person img {
   float: left;
   width: 120px;
@@ -243,34 +252,34 @@ footer a {
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
 }
-/* line 36, ../_sass/people.scss */
+/* line 27, ../_sass/people.scss */
 .people .person > i {
   float: left;
   padding: 22px 30px;
   color: #999;
 }
-/* line 41, ../_sass/people.scss */
+/* line 32, ../_sass/people.scss */
 .people .person .info {
   float: left;
   width: 280px;
   margin-left: 20px;
 }
-/* line 45, ../_sass/people.scss */
+/* line 36, ../_sass/people.scss */
 .people .person .info h2 {
-  font-weight: bold;
+  font-weight: 500;
   font-size: 20px;
 }
-/* line 49, ../_sass/people.scss */
+/* line 40, ../_sass/people.scss */
 .people .person .info h3 {
   display: block;
   margin: 10px 0 25px 0;
   color: #666;
 }
-/* line 53, ../_sass/people.scss */
+/* line 44, ../_sass/people.scss */
 .people .person .info h3 a.email:hover {
   color: #333;
 }
-/* line 57, ../_sass/people.scss */
+/* line 48, ../_sass/people.scss */
 .people .person .info span {
   display: block;
   color: #999;
@@ -298,55 +307,28 @@ footer a {
 }
 
 /* line 18, ../_sass/projects.scss */
-._project-header {
-  width: 540px;
-  background-color: #eeeeee;
-  padding: 10px 0 10px 20px;
-  margin-bottom: 10px;
-}
-
-/* line 25, ../_sass/projects.scss */
-._project-header h1 {
-  margin: 0 0 5px 0;
-  color: #000000;
-  font-weight: bold;
-  font-size: 17px;
-}
-
-/* line 32, ../_sass/projects.scss */
-._project-header h2 {
-  margin: 0;
-  color: #999;
-  font-weight: normal;
-  font-size: 15px;
-}
-
-/* line 39, ../_sass/projects.scss */
 ._project-text p {
   width: 540px;
   padding: 10px 0 10px 20px;
   line-height: 24px;
-  color: #999;
+  color: #666;
 }
 
-/* line 46, ../_sass/projects.scss */
+/* line 25, ../_sass/projects.scss */
 ._project-pub-link {
-  border: none;
-  display: inline-block;
-  margin: 10px 0 0 20px;
-  font-weight: bold;
-  background-color: #333333;
-  color: #ffffff !important;
+  float: right;
+  margin: -28px 0 0 20px;
+  background-color: #eee;
+  color: #399BE6;
   padding: 10px;
-  border-left: 5px solid #399BE6;
+  text-transform: none;
 }
-/* line 55, ../_sass/projects.scss */
+/* line 32, ../_sass/projects.scss */
 ._project-pub-link:hover {
-  color: #ffffff !important;
-  background-color: #000000;
-  border-left-color: #F35958;
+  color: #F35958;
+  background-color: #eee;
 }
-/* line 60, ../_sass/projects.scss */
+/* line 36, ../_sass/projects.scss */
 ._project-pub-link i {
   margin-right: 10px;
 }
@@ -425,7 +407,7 @@ button {
   background-color: #399BE6;
   font-size: 15px;
   color: #ffffff;
-  font-weight: bold;
+  font-weight: 500;
   background-image: none;
 }
 /* line 39, ../_sass/contact.scss */

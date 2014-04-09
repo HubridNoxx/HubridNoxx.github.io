@@ -21,14 +21,15 @@ nav {
   float: right;
   line-height: 50px;
   font-size: 17px;
+  font-weight: 300;
 }
-/* line 21, ../_sass/header.scss */
+/* line 22, ../_sass/header.scss */
 nav a {
   padding: 10px;
   margin: 0 2px;
   color: #999;
 }
-/* line 25, ../_sass/header.scss */
+/* line 26, ../_sass/header.scss */
 nav a:hover {
   color: #666;
 }
