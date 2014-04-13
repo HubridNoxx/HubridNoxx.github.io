@@ -187,18 +187,27 @@ h1 i {
 /* line 11, ../_sass/content.scss */
 .sub-h1 {
   color: #333;
+  float: left;
+  width: 100%;
   font-weight: 300;
   font-size: 15px;
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
   text-transform: uppercase;
 }
-/* line 18, ../_sass/content.scss */
+/* line 20, ../_sass/content.scss */
 .sub-h1 span {
   display: block;
   margin-left: 23px;
   padding-top: 5px;
   text-transform: none;
+  color: #999;
+}
+
+/* line 29, ../_sass/content.scss */
+h2 {
+  margin-left: 30px;
+  font-weight: 300;
   color: #999;
 }
 
@@ -307,7 +316,7 @@ footer a:hover {
 /* line 1, ../_sass/projects.scss */
 ._project {
   width: 960px;
-  margin: 0 0 40px 0;
+  margin: 0 0 100px 0;
 }
 
 /* line 6, ../_sass/projects.scss */
@@ -318,37 +327,67 @@ footer a:hover {
 }
 
 /* line 12, ../_sass/projects.scss */
-._project-text {
+._project-body {
   float: right;
   width: 560px;
-  height: 500px;
 }
 
-/* line 18, ../_sass/projects.scss */
-._project-text p {
-  width: 540px;
-  padding: 10px 0 10px 20px;
+/* line 17, ../_sass/projects.scss */
+._project-body p {
+  width: 520px;
+  padding: 10px 10px 10px 30px;
   line-height: 24px;
   color: #666;
 }
 
-/* line 25, ../_sass/projects.scss */
+/* line 24, ../_sass/projects.scss */
 ._project-pub-link {
-  float: right;
-  margin: -28px 0 0 20px;
+  cursor: pointer;
+  float: left;
+  margin: 40px 0 0 20px;
+  width: 520px;
   background-color: #eee;
   color: #399BE6;
   padding: 10px;
   text-transform: none;
 }
-/* line 32, ../_sass/projects.scss */
+/* line 33, ../_sass/projects.scss */
 ._project-pub-link:hover {
   color: #F35958;
   background-color: #eee;
 }
-/* line 36, ../_sass/projects.scss */
-._project-pub-link i {
+/* line 37, ../_sass/projects.scss */
+._project-pub-link .fa-file-text-o {
   margin-right: 10px;
+}
+/* line 40, ../_sass/projects.scss */
+._project-pub-link .fa-angle-down {
+  float: right;
+}
+
+/* line 45, ../_sass/projects.scss */
+.dropdown-pub-links {
+  height: 0;
+  padding: 0 10px;
+  overflow: hidden;
+  float: left;
+  margin: 0 0 20px 20px;
+  width: 520px;
+  background-color: #eee;
+}
+/* line 53, ../_sass/projects.scss */
+.dropdown-pub-links span {
+  font-weight: 300;
+  color: #999;
+  float: left;
+  width: 520px;
+}
+/* line 59, ../_sass/projects.scss */
+.dropdown-pub-links > div {
+  float: left;
+  width: 520px;
+  color: #666;
+  padding: 10px 0;
 }
 
 /* line 1, ../_sass/publications.scss */
