@@ -3,7 +3,9 @@ a {
     text-decoration: none;
 }
 
-/** {
+// Slow fading/changing color transitions 
+
+* {
     -webkit-transition: color 0.1s;
     -moz-transition: color 0.1s;
     transition: color 0.1s;
@@ -13,4 +15,4 @@ a {
     -webkit-transition: background-color 0.1s;
     -moz-transition: background-color 0.1s;
     transition: background-color 0.1s;
-}*/
+}

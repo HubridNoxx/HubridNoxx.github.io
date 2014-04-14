@@ -16,12 +16,12 @@
         height: 44px;
         text-align: center;
         font-weight: 300;
-        color: #399BE6;
+        color: $blue;
         i {
             margin-right: 10px;
         }
         &:hover {
-            color: #F35958;
+            color: $red;
         }
     }
 }

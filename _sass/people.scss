@@ -11,9 +11,9 @@
             background-color: #eee;
             border-color: #ddd;
             h2 > a {
-                color: #399BE6;
+                color: $blue;
                 &:hover {
-                    color: #F35958;
+                    color: $red;
                 }
             }
         }

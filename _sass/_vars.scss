@@ -3,9 +3,17 @@ $font-stack: 15px Helvetica Neue, Helvetica, sans-serif;
 $site-width: 960px;
 
 $header-bkg: #eee;
-
+$header-height: 114px;  // Height of header when not scrolling
+$header-scroll-height: 60px;  // Height of header when scrollingx
 $header-color: #999;
 
 $footer-color: #999;
 
 $light-gray-border: 1px solid #ddd;
+
+// Colors
+
+
+$red: #f35958;
+$blue: #399be6;
+$dark-blue: #2a76b0;

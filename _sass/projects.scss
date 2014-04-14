@@ -27,11 +27,11 @@
     margin: 40px 0 0 20px;
     width: 520px;
     background-color: #eee;
-    color: #399BE6;
+    color: $blue;
     padding: 10px;
     text-transform: none;
     &:hover {
-        color: #F35958;
+        color: $red;
         background-color: #eee;
     }
     .fa-file-text-o {

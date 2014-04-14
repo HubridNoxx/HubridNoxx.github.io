@@ -125,17 +125,19 @@ a {
   text-decoration: none;
 }
 
-/** {
-    -webkit-transition: color 0.1s;
-    -moz-transition: color 0.1s;
-    transition: color 0.1s;
-    -webkit-transition: border-color 0.1s;
-    -moz-transition: border-color 0.1s;
-    transition: border-color 0.1s;
-    -webkit-transition: background-color 0.1s;
-    -moz-transition: background-color 0.1s;
-    transition: background-color 0.1s;
-}*/
+/* line 8, ../_sass/_global.scss */
+* {
+  -webkit-transition: color 0.1s;
+  -moz-transition: color 0.1s;
+  transition: color 0.1s;
+  -webkit-transition: border-color 0.1s;
+  -moz-transition: border-color 0.1s;
+  transition: border-color 0.1s;
+  -webkit-transition: background-color 0.1s;
+  -moz-transition: background-color 0.1s;
+  transition: background-color 0.1s;
+}
+
 /* line 1, ../_sass/header.scss */
 .logo {
   height: 50px;
@@ -265,11 +267,11 @@ footer a:hover {
 }
 /* line 13, ../_sass/people.scss */
 .people .person:hover h2 > a {
-  color: #399BE6;
+  color: #399be6;
 }
 /* line 15, ../_sass/people.scss */
 .people .person:hover h2 > a:hover {
-  color: #F35958;
+  color: #f35958;
 }
 /* line 20, ../_sass/people.scss */
 .people .person img {
@@ -347,13 +349,13 @@ footer a:hover {
   margin: 40px 0 0 20px;
   width: 520px;
   background-color: #eee;
-  color: #399BE6;
+  color: #399be6;
   padding: 10px;
   text-transform: none;
 }
 /* line 33, ../_sass/projects.scss */
 ._project-pub-link:hover {
-  color: #F35958;
+  color: #f35958;
   background-color: #eee;
 }
 /* line 37, ../_sass/projects.scss */
@@ -412,7 +414,7 @@ footer a:hover {
   height: 44px;
   text-align: center;
   font-weight: 300;
-  color: #399BE6;
+  color: #399be6;
 }
 /* line 20, ../_sass/publications.scss */
 .publications li a i {
@@ -420,7 +422,7 @@ footer a:hover {
 }
 /* line 23, ../_sass/publications.scss */
 .publications li a:hover {
-  color: #F35958;
+  color: #f35958;
 }
 
 /* line 1, ../_sass/contact.scss */
@@ -461,7 +463,7 @@ button {
   border: none;
   border-bottom: 3px solid #2a76b0;
   padding: 10px 20px;
-  background-color: #399BE6;
+  background-color: #399be6;
   font-size: 15px;
   color: #ffffff;
   font-weight: 500;

@@ -29,15 +29,15 @@ input[type=text] {
 button {
     cursor: pointer;
     border: none;
-    border-bottom: 3px solid #2a76b0;
+    border-bottom: 3px solid $dark-blue;
     padding: 10px 20px;
-    background-color: #399BE6;
+    background-color: $blue;
     font-size: 15px;
     color: #ffffff;
     font-weight: 500;
     background-image: none;
     &:hover {
-        border-color: #2a76b0;
+        border-color: $dark-blue;
     }
     i {
         margin-right: 7px;

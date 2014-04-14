@@ -13,7 +13,7 @@ body {
     position: fixed;
     top: 0;
     z-index: 1000;
-    height: 114px;
+    height: $header-height;
     -webkit-transition: height 0.5s;
     -moz-transition: height 0.5s;
     transition: height 0.5s; 
@@ -37,7 +37,7 @@ body {
 
 // Scroll effect
 .header-frame.shrink {
-    height: 60px;
+    height: $header-scroll-height;
     .header {
         padding: 5px 0;
         .cutoff {
