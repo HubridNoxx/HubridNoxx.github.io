@@ -477,3 +477,7 @@ button:hover {
 button i {
   margin-right: 7px;
 }
+/* line 45, ../_sass/contact.scss */
+button:focus {
+  color: #fff;
+}

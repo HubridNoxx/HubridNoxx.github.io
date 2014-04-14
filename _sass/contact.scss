@@ -42,4 +42,7 @@ button {
     i {
         margin-right: 7px;
     }
+    &:focus {
+        color: #fff;
+    }
 }
