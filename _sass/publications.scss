@@ -4,13 +4,13 @@
     span {
         line-height: 22px;
         color: #666;
-        width: 840px;
+        width: 85%;
         float: left;
-        margin-right: 20px;
+        margin-right: 5%;
     }
     a {
         float: left;
-        width: 95px;
+        width: 10%;
         line-height: 44px;
         background-color: #eee;
         height: 44px;
@@ -22,6 +22,9 @@
         }
         &:hover {
             color: $red;
+        }
+        &:after {
+          content: "PDF";
         }
     }
 }

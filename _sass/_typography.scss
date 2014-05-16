@@ -1,3 +1,11 @@
+body {
+    font: $font-stack;
+}
+
+button {
+  font-size: 15px;
+}
+
 h1 {
     font-size: 20px;
     font-weight: bold;
@@ -10,7 +18,7 @@ h1 {
 
 .sub-h1 {
     color: #333;
-    float: left;
+    display: inline-block;
     width: 100%;
     font-weight: 300;
     font-size: 15px;
@@ -26,8 +34,21 @@ h1 {
     }
 }
 
+h2 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
 h3 {
-    margin-left: 20px;
+    margin-left: 5%;
     font-weight: 300;
     color: #999;
+}
+
+nav {
+  font-size: 17px;
+}
+
+footer {
+  font-size: 14px;
 }

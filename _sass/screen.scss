@@ -1,11 +1,12 @@
 @import "compass/reset";
 @import "_vars";
+@import "_typography";
 @import "_layout";
 @import "_global";
 @import "header";
-@import "content";
 @import "footer";
 @import "people";
 @import "projects";
 @import "publications";
 @import "contact";
+@import "_responsive";

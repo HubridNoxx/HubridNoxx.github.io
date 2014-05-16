@@ -1,4 +1,4 @@
-/* line 17, ../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,61 +20,121 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 1, ../_sass/_layout.scss */
+/* line 1, ../_sass/_typography.scss */
 body {
-  font: 15px Helvetica Neue, Helvetica, sans-serif;
+  font: 15px/100% Helvetica Neue, Helvetica, sans-serif;
 }
 
-/* line 5, ../_sass/_layout.scss */
+/* line 5, ../_sass/_typography.scss */
+button {
+  font-size: 15px;
+}
+
+/* line 9, ../_sass/_typography.scss */
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+}
+/* line 14, ../_sass/_typography.scss */
+h1 i {
+  margin-right: 10px;
+}
+
+/* line 19, ../_sass/_typography.scss */
+.sub-h1 {
+  color: #333;
+  display: inline-block;
+  width: 100%;
+  font-weight: 300;
+  font-size: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+/* line 28, ../_sass/_typography.scss */
+.sub-h1 span {
+  display: block;
+  margin-left: 23px;
+  padding-top: 5px;
+  text-transform: none;
+  color: #999;
+}
+
+/* line 37, ../_sass/_typography.scss */
+h2 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* line 42, ../_sass/_typography.scss */
+h3 {
+  margin-left: 5%;
+  font-weight: 300;
+  color: #999;
+}
+
+/* line 48, ../_sass/_typography.scss */
+nav {
+  font-size: 17px;
+}
+
+/* line 52, ../_sass/_typography.scss */
+footer {
+  font-size: 14px;
+}
+
+/* line 1, ../_sass/_layout.scss */
 .site-frame {
   width: 100%;
   height: auto;
 }
 
-/* line 10, ../_sass/_layout.scss */
+/* line 6, ../_sass/_layout.scss */
 .header-frame {
   background-color: #eeeeee;
   border-bottom: 1px solid #dddddd;
@@ -87,13 +147,13 @@ body {
   transition: height 0.5s;
 }
 
-/* line 22, ../_sass/_layout.scss */
+/* line 18, ../_sass/_layout.scss */
 .header, .content, .footer {
   margin: 0 auto;
-  width: 960px;
+  width: 90%;
 }
 
-/* line 27, ../_sass/_layout.scss */
+/* line 23, ../_sass/_layout.scss */
 .header {
   padding: 30px 0;
   -webkit-transition: padding 0.5s;
@@ -101,20 +161,20 @@ body {
   transition: padding 0.5s;
 }
 
-/* line 34, ../_sass/_layout.scss */
+/* line 30, ../_sass/_layout.scss */
 .content {
   margin: 154px auto 0 auto;
 }
 
-/* line 39, ../_sass/_layout.scss */
+/* line 35, ../_sass/_layout.scss */
 .header-frame.shrink {
   height: 60px;
 }
-/* line 41, ../_sass/_layout.scss */
+/* line 37, ../_sass/_layout.scss */
 .header-frame.shrink .header {
   padding: 5px 0;
 }
-/* line 43, ../_sass/_layout.scss */
+/* line 39, ../_sass/_layout.scss */
 .header-frame.shrink .header .cutoff {
   width: 50px;
 }
@@ -160,57 +220,17 @@ a {
 nav {
   float: right;
   line-height: 50px;
-  font-size: 17px;
   font-weight: 300;
 }
-/* line 22, ../_sass/header.scss */
+/* line 21, ../_sass/header.scss */
 nav a {
   padding: 10px;
   margin: 0 2px;
   color: #999999;
 }
-/* line 26, ../_sass/header.scss */
+/* line 25, ../_sass/header.scss */
 nav a:hover {
   color: #666;
-}
-
-/* line 1, ../_sass/content.scss */
-h1 {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 30px;
-  color: #333;
-}
-/* line 6, ../_sass/content.scss */
-h1 i {
-  margin-right: 10px;
-}
-
-/* line 11, ../_sass/content.scss */
-.sub-h1 {
-  color: #333;
-  float: left;
-  width: 100%;
-  font-weight: 300;
-  font-size: 15px;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
-  text-transform: uppercase;
-}
-/* line 20, ../_sass/content.scss */
-.sub-h1 span {
-  display: block;
-  margin-left: 23px;
-  padding-top: 5px;
-  text-transform: none;
-  color: #999;
-}
-
-/* line 29, ../_sass/content.scss */
-h3 {
-  margin-left: 20px;
-  font-weight: 300;
-  color: #999;
 }
 
 /* line 1, ../_sass/footer.scss */
@@ -220,28 +240,27 @@ footer {
   padding: 20px 0;
   float: left;
   width: 100%;
-  font-size: 14px;
   text-align: right;
   line-height: 30px;
 }
-/* line 10, ../_sass/footer.scss */
+/* line 9, ../_sass/footer.scss */
 footer span {
   float: left;
   line-height: 30px;
   margin-left: 20px;
 }
-/* line 15, ../_sass/footer.scss */
+/* line 14, ../_sass/footer.scss */
 footer img {
   float: left;
   height: 30px;
   opacity: 0.5;
 }
-/* line 20, ../_sass/footer.scss */
+/* line 19, ../_sass/footer.scss */
 footer a {
   border-bottom: 1px solid #999;
   padding-bottom: 3px;
 }
-/* line 23, ../_sass/footer.scss */
+/* line 22, ../_sass/footer.scss */
 footer a:hover {
   color: #666;
   border-color: #666;
@@ -249,7 +268,7 @@ footer a:hover {
 
 /* line 1, ../_sass/people.scss */
 .people {
-  width: 960px;
+  width: 90%;
   float: left;
 }
 /* line 4, ../_sass/people.scss */
@@ -294,21 +313,16 @@ footer a:hover {
   margin-left: 20px;
 }
 /* line 36, ../_sass/people.scss */
-.people .person .info h2 {
-  font-weight: 500;
-  font-size: 20px;
-}
-/* line 40, ../_sass/people.scss */
 .people .person .info h3 {
   display: block;
   margin: 10px 0 25px 0;
   color: #666;
 }
-/* line 44, ../_sass/people.scss */
+/* line 40, ../_sass/people.scss */
 .people .person .info h3 a.email:hover {
   color: #333;
 }
-/* line 48, ../_sass/people.scss */
+/* line 44, ../_sass/people.scss */
 .people .person .info span {
   display: block;
   color: #999;
@@ -317,83 +331,84 @@ footer a:hover {
 
 /* line 1, ../_sass/projects.scss */
 ._project {
-  width: 960px;
+  float: left;
+  width: 90%;
   margin: 0 0 100px 0;
 }
 
-/* line 6, ../_sass/projects.scss */
+/* line 7, ../_sass/projects.scss */
 ._project-img {
-  display: inline-grid;
-  width: 395px;
-  height: 500px;
+  float: left;
+  width: 40%;
+  height: auto;
 }
 
-/* line 12, ../_sass/projects.scss */
+/* line 13, ../_sass/projects.scss */
 ._project-body {
-  float: right;
-  width: 560px;
+  display: inline-block;
+  width: 59%;
 }
 
-/* line 17, ../_sass/projects.scss */
+/* line 18, ../_sass/projects.scss */
 ._project-body p {
-  width: 540px;
-  padding: 10px 0px 10px 20px;
+  width: 95%;
+  padding: 10px 0px 10px 5%;
   line-height: 24px;
   color: #666;
 }
 
-/* line 24, ../_sass/projects.scss */
+/* line 25, ../_sass/projects.scss */
 ._project-pub-link {
   cursor: pointer;
   float: left;
-  margin: 40px 0 0 20px;
-  width: 520px;
+  margin: 40px 0 0 5%;
+  width: 91%;
   background-color: #eee;
   color: #399be6;
-  padding: 10px;
+  padding: 10px 2%;
   text-transform: none;
 }
-/* line 33, ../_sass/projects.scss */
+/* line 34, ../_sass/projects.scss */
 ._project-pub-link:hover {
   color: #f35958;
   background-color: #eee;
 }
-/* line 37, ../_sass/projects.scss */
+/* line 38, ../_sass/projects.scss */
 ._project-pub-link .fa-file-text-o {
   margin-right: 10px;
 }
-/* line 40, ../_sass/projects.scss */
+/* line 41, ../_sass/projects.scss */
 ._project-pub-link .fa-angle-down {
   float: right;
 }
 
-/* line 45, ../_sass/projects.scss */
+/* line 46, ../_sass/projects.scss */
 .dropdown-pub-links {
   height: 0;
   overflow: hidden;
   float: left;
-  margin: 0 0 20px 20px;
-  width: 540px;
+  margin: 0 0 20px 5%;
+  width: 95%;
   background-color: #eee;
 }
-/* line 52, ../_sass/projects.scss */
+/* line 53, ../_sass/projects.scss */
 .dropdown-pub-links span {
   font-weight: 300;
   color: #999;
   float: left;
-  width: 520px;
-  padding: 10px;
+  width: 96%;
+  padding: 10px 2%;
 }
-/* line 59, ../_sass/projects.scss */
+/* line 60, ../_sass/projects.scss */
 .dropdown-pub-links > a {
   float: left;
-  width: 518px;
+  width: 96%;
   color: #666;
-  padding: 10px;
+  padding: 10px 2%;
   line-height: 24px;
-  border-left: 2px solid #eee;
+  border-left: 1% solid #eee;
 }
-/* line 66, ../_sass/projects.scss */
+/* line 67, ../_sass/projects.scss */
 .dropdown-pub-links > a:hover {
   background-color: #ddd;
   border-left: 2px solid #399be6;
@@ -408,14 +423,14 @@ footer a:hover {
 .publications li span {
   line-height: 22px;
   color: #666;
-  width: 840px;
+  width: 85%;
   float: left;
-  margin-right: 20px;
+  margin-right: 5%;
 }
 /* line 11, ../_sass/publications.scss */
 .publications li a {
   float: left;
-  width: 95px;
+  width: 10%;
   line-height: 44px;
   background-color: #eee;
   height: 44px;
@@ -431,10 +446,14 @@ footer a:hover {
 .publications li a:hover {
   color: #f35958;
 }
+/* line 26, ../_sass/publications.scss */
+.publications li a:after {
+  content: "PDF";
+}
 
 /* line 1, ../_sass/contact.scss */
 input, textarea, button {
-  font: 15px Helvetica Neue, Helvetica, sans-serif;
+  font: 15px/100% Helvetica Neue, Helvetica, sans-serif;
   border: 1px solid #ccc;
   display: block;
   color: #999999;
@@ -443,48 +462,113 @@ input, textarea, button {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
-  font-size: 15px;
   padding: 5px 10px;
   margin: 0 0 20px 0;
 }
-/* line 14, ../_sass/contact.scss */
+/* line 13, ../_sass/contact.scss */
 input:hover, textarea:hover, button:hover {
   border-color: #bbb;
 }
-/* line 17, ../_sass/contact.scss */
+/* line 16, ../_sass/contact.scss */
 input:focus, textarea:focus, button:focus {
   border-color: #999;
   color: #333;
   outline: none;
 }
 
-/* line 24, ../_sass/contact.scss */
+/* line 23, ../_sass/contact.scss */
 input[type=text] {
   height: 32px;
   width: 250px;
 }
 
-/* line 29, ../_sass/contact.scss */
+/* line 28, ../_sass/contact.scss */
 button {
   cursor: pointer;
   border: none;
   border-bottom: 3px solid #2a76b0;
   padding: 10px 20px;
   background-color: #399be6;
-  font-size: 15px;
   color: #ffffff;
   font-weight: 500;
   background-image: none;
 }
-/* line 39, ../_sass/contact.scss */
+/* line 37, ../_sass/contact.scss */
 button:hover {
   border-color: #2a76b0;
 }
-/* line 42, ../_sass/contact.scss */
+/* line 40, ../_sass/contact.scss */
 button i {
   margin-right: 7px;
 }
-/* line 45, ../_sass/contact.scss */
+/* line 43, ../_sass/contact.scss */
 button:focus {
   color: #fff;
+}
+
+@media screen and (max-width: 1000px) {
+  /* line 6, ../_sass/_responsive.scss */
+  nav {
+    font-size: 15px;
+  }
+
+  /* line 9, ../_sass/_responsive.scss */
+  ._description {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 910px) {
+  /* line 15, ../_sass/_responsive.scss */
+  .header-frame {
+    min-height: 60px;
+    height: auto;
+  }
+
+  /* line 19, ../_sass/_responsive.scss */
+  .header {
+    padding: 5px 0;
+  }
+
+  /* line 22, ../_sass/_responsive.scss */
+  .cutoff {
+    display: none;
+  }
+
+  /* line 25, ../_sass/_responsive.scss */
+  nav {
+    display: block;
+    float: none;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 33, ../_sass/_responsive.scss */
+  ._project-img {
+    display: none;
+  }
+
+  /* line 36, ../_sass/_responsive.scss */
+  ._project-body {
+    width: 100%;
+  }
+  /* line 39, ../_sass/_responsive.scss */
+  ._project-body h3,
+  ._project-body p {
+    margin-left: 23px;
+    padding-left: 0;
+  }
+
+  /* line 44, ../_sass/_responsive.scss */
+  footer span {
+    display: none;
+  }
+
+  /* line 48, ../_sass/_responsive.scss */
+  .publications li a i {
+    margin: 0;
+  }
+  /* line 51, ../_sass/_responsive.scss */
+  .publications li a:after {
+    content: "";
+  }
 }

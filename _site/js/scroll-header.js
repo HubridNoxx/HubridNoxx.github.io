@@ -3,7 +3,7 @@ $(document).ready(function() {
      var shrinkHeader = 50;
       $(window).scroll(function() {
         var scroll = getCurrentScroll();
-          if (scroll >= shrinkHeader) {
+          if ((scroll >= shrinkHeader) && ($(window).width() > 910)) {
                $('.header-frame').addClass('shrink');
               
             }

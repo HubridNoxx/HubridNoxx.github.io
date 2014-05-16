@@ -1,5 +1,5 @@
 .people {
-    width: 960px;
+    width: $site-width;
     float: left;
     .person {
         width: 439px;
@@ -33,10 +33,6 @@
             float: left;
             width: 280px;
             margin-left: 20px;
-            h2 {
-                font-weight: 500;
-                font-size: 20px;
-            }
             h3 {
                 display: block;
                 margin: 10px 0 25px 0;

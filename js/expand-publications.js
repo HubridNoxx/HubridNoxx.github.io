@@ -13,26 +13,26 @@ $(document).ready(function() {
             }, 200, function() {
             });
             dropdown_span.animate({
-                padding: "0px 10px"
+                padding: "0px 2%"
             }, 200, function() {
             });
             dropdown_div.animate({
-                padding: "0px 10px"
+                padding: "0px 2%"
             }, 200, function() {
             });
         } else {
             label.text("Hide publications");
             $.rotate(180, arrow);
             dropdown.addClass("open").animate({
-                height: "314px"
+                height: "370px"
             }, 200, function() {
             });
             dropdown_span.animate({
-                padding: "10px"
+                padding: "10px 2%"
             }, 200, function() {
             });
             dropdown_div.animate({
-                padding: "10px"
+                padding: "10px 2%"
             }, 200, function() {
             });
         }
