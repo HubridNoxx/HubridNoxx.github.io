@@ -1,14 +1,42 @@
 /*
-Syntax error: Undefined variable: "$site-width".
-        on line 2 of /Users/Zack/hubridnoxx.github.io/_sass/people.scss
-
-1: /Users/Zack/hubridnoxx.github.io/_sass/people.scss
+Syntax error: Undefined variable: "$blue".
+        on line 13 of /Users/Zack/zelliott.github.io/_sass/people.scss
 
 Backtrace:
-/Users/Zack/hubridnoxx.github.io/_sass/people.scss:2
+/Users/Zack/zelliott.github.io/_sass/people.scss:13
 /Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/script/variable.rb:49:in `_perform'
 /Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/script/node.rb:40:in `perform'
 /Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
 /Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
 /Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
 /Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
@@ -51,24 +79,26 @@ Backtrace:
 /Users/Zack/.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/lib/compass/commands/project_base.rb:19:in `execute'
 /Users/Zack/.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
 /Users/Zack/.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Users/Zack/hubridnoxx.github.io/_plugins/generator_scss.rb:23:in `block in generate'
-/Users/Zack/hubridnoxx.github.io/_plugins/generator_scss.rb:22:in `chdir'
-/Users/Zack/hubridnoxx.github.io/_plugins/generator_scss.rb:22:in `generate'
+/Users/Zack/zelliott.github.io/_plugins/generator_scss.rb:23:in `block in generate'
+/Users/Zack/zelliott.github.io/_plugins/generator_scss.rb:22:in `chdir'
+/Users/Zack/zelliott.github.io/_plugins/generator_scss.rb:22:in `generate'
 /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/jekyll-1.4.3/lib/jekyll/site.rb:227:in `block in generate'
 /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/jekyll-1.4.3/lib/jekyll/site.rb:226:in `each'
 /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/jekyll-1.4.3/lib/jekyll/site.rb:226:in `generate'
 /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/jekyll-1.4.3/lib/jekyll/site.rb:38:in `process'
 /Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/jekyll-1.4.3/lib/jekyll/command.rb:18:in `process_site'
-/Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/jekyll-1.4.3/lib/jekyll/commands/build.rb:53:in `block in watch'
-/Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/listen-1.3.1/lib/listen/listener.rb:252:in `call'
-/Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/listen-1.3.1/lib/listen/listener.rb:252:in `on_change'
-/Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/listen-1.3.1/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/listen-1.3.1/lib/listen/adapter.rb:252:in `call'
-/Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/listen-1.3.1/lib/listen/adapter.rb:252:in `report_changes'
-/Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/listen-1.3.1/lib/listen/adapter.rb:321:in `poll_changed_directories'
-/Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/listen-1.3.1/lib/listen/adapter.rb:297:in `block in start_poller'
+/Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/jekyll-1.4.3/lib/jekyll/commands/build.rb:23:in `build'
+/Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/jekyll-1.4.3/lib/jekyll/commands/build.rb:7:in `process'
+/Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/jekyll-1.4.3/bin/jekyll:97:in `block (2 levels) in <top (required)>'
+/Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/commander-4.1.6/lib/commander/command.rb:180:in `call'
+/Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/commander-4.1.6/lib/commander/command.rb:180:in `call'
+/Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/commander-4.1.6/lib/commander/command.rb:155:in `run'
+/Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/commander-4.1.6/lib/commander/runner.rb:422:in `run_active_command'
+/Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/commander-4.1.6/lib/commander/runner.rb:66:in `run!'
+/Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/commander-4.1.6/lib/commander/delegates.rb:8:in `run!'
+/Users/Zack/.rvm/gems/ruby-2.1.0@global/gems/commander-4.1.6/lib/commander/import.rb:10:in `block in <top (required)>'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$site-width\".\A         on line 2 of /Users/Zack/hubridnoxx.github.io/_sass/people.scss\A \A 1: /Users/Zack/hubridnoxx.github.io/_sass/people.scss"; }
+  content: "Syntax error: Undefined variable: \"$blue\".\A         on line 13 of /Users/Zack/zelliott.github.io/_sass/people.scss"; }

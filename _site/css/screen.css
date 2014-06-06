@@ -150,10 +150,11 @@ footer {
 /* line 18, ../_sass/_layout.scss */
 .header, .content, .footer {
   margin: 0 auto;
+  max-width: 960px;
   width: 90%;
 }
 
-/* line 23, ../_sass/_layout.scss */
+/* line 24, ../_sass/_layout.scss */
 .header {
   padding: 30px 0;
   -webkit-transition: padding 0.5s;
@@ -161,20 +162,20 @@ footer {
   transition: padding 0.5s;
 }
 
-/* line 30, ../_sass/_layout.scss */
+/* line 31, ../_sass/_layout.scss */
 .content {
   margin: 154px auto 0 auto;
 }
 
-/* line 35, ../_sass/_layout.scss */
+/* line 36, ../_sass/_layout.scss */
 .header-frame.shrink {
   height: 60px;
 }
-/* line 37, ../_sass/_layout.scss */
+/* line 38, ../_sass/_layout.scss */
 .header-frame.shrink .header {
   padding: 5px 0;
 }
-/* line 39, ../_sass/_layout.scss */
+/* line 40, ../_sass/_layout.scss */
 .header-frame.shrink .header .cutoff {
   width: 50px;
 }
@@ -268,10 +269,9 @@ footer a:hover {
 
 /* line 1, ../_sass/people.scss */
 .people {
-  width: 90%;
   float: left;
 }
-/* line 4, ../_sass/people.scss */
+/* line 3, ../_sass/people.scss */
 .people .person {
   width: 439px;
   float: left;
@@ -279,20 +279,20 @@ footer a:hover {
   padding: 20px;
   border-left: 1px solid #fff;
 }
-/* line 10, ../_sass/people.scss */
+/* line 9, ../_sass/people.scss */
 .people .person:hover {
   background-color: #eee;
   border-color: #ddd;
 }
-/* line 13, ../_sass/people.scss */
+/* line 12, ../_sass/people.scss */
 .people .person:hover h2 > a {
   color: #399be6;
 }
-/* line 15, ../_sass/people.scss */
+/* line 14, ../_sass/people.scss */
 .people .person:hover h2 > a:hover {
   color: #f35958;
 }
-/* line 20, ../_sass/people.scss */
+/* line 19, ../_sass/people.scss */
 .people .person img {
   float: left;
   width: 120px;
@@ -300,29 +300,29 @@ footer a:hover {
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
 }
-/* line 27, ../_sass/people.scss */
+/* line 26, ../_sass/people.scss */
 .people .person > i {
   float: left;
   padding: 22px 30px;
   color: #999;
 }
-/* line 32, ../_sass/people.scss */
+/* line 31, ../_sass/people.scss */
 .people .person .info {
   float: left;
   width: 280px;
   margin-left: 20px;
 }
-/* line 36, ../_sass/people.scss */
+/* line 35, ../_sass/people.scss */
 .people .person .info h3 {
   display: block;
   margin: 10px 0 25px 0;
   color: #666;
 }
-/* line 40, ../_sass/people.scss */
+/* line 39, ../_sass/people.scss */
 .people .person .info h3 a.email:hover {
   color: #333;
 }
-/* line 44, ../_sass/people.scss */
+/* line 43, ../_sass/people.scss */
 .people .person .info span {
   display: block;
   color: #999;
@@ -332,24 +332,25 @@ footer a:hover {
 /* line 1, ../_sass/projects.scss */
 ._project {
   float: left;
+  max-width: 960px;
   width: 90%;
   margin: 0 0 100px 0;
 }
 
-/* line 7, ../_sass/projects.scss */
+/* line 8, ../_sass/projects.scss */
 ._project-img {
   float: left;
   width: 40%;
   height: auto;
 }
 
-/* line 13, ../_sass/projects.scss */
+/* line 14, ../_sass/projects.scss */
 ._project-body {
   display: inline-block;
   width: 59%;
 }
 
-/* line 18, ../_sass/projects.scss */
+/* line 19, ../_sass/projects.scss */
 ._project-body p {
   width: 95%;
   padding: 10px 0px 10px 5%;
@@ -357,7 +358,7 @@ footer a:hover {
   color: #666;
 }
 
-/* line 25, ../_sass/projects.scss */
+/* line 26, ../_sass/projects.scss */
 ._project-pub-link {
   cursor: pointer;
   float: left;
@@ -368,21 +369,21 @@ footer a:hover {
   padding: 10px 2%;
   text-transform: none;
 }
-/* line 34, ../_sass/projects.scss */
+/* line 35, ../_sass/projects.scss */
 ._project-pub-link:hover {
   color: #f35958;
   background-color: #eee;
 }
-/* line 38, ../_sass/projects.scss */
+/* line 39, ../_sass/projects.scss */
 ._project-pub-link .fa-file-text-o {
   margin-right: 10px;
 }
-/* line 41, ../_sass/projects.scss */
+/* line 42, ../_sass/projects.scss */
 ._project-pub-link .fa-angle-down {
   float: right;
 }
 
-/* line 46, ../_sass/projects.scss */
+/* line 47, ../_sass/projects.scss */
 .dropdown-pub-links {
   height: 0;
   overflow: hidden;
@@ -391,7 +392,7 @@ footer a:hover {
   width: 95%;
   background-color: #eee;
 }
-/* line 53, ../_sass/projects.scss */
+/* line 54, ../_sass/projects.scss */
 .dropdown-pub-links span {
   font-weight: 300;
   color: #999;
@@ -399,7 +400,7 @@ footer a:hover {
   width: 96%;
   padding: 10px 2%;
 }
-/* line 60, ../_sass/projects.scss */
+/* line 61, ../_sass/projects.scss */
 .dropdown-pub-links > a {
   float: left;
   width: 96%;
@@ -408,7 +409,7 @@ footer a:hover {
   line-height: 24px;
   border-left: 1% solid #eee;
 }
-/* line 67, ../_sass/projects.scss */
+/* line 68, ../_sass/projects.scss */
 .dropdown-pub-links > a:hover {
   background-color: #ddd;
   border-left: 2px solid #399be6;
