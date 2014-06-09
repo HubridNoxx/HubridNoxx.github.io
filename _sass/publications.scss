@@ -1,6 +1,7 @@
 .publications li {
     float: left;
     margin-bottom: 20px;
+    width: 100%;
     span {
         line-height: 22px;
         color: #666;
@@ -9,7 +10,7 @@
         margin-right: 5%;
     }
     a {
-        float: left;
+        float: right;
         width: 10%;
         line-height: 44px;
         background-color: #eee;

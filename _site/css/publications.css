@@ -1,9 +1,9 @@
 /*
 Syntax error: Undefined variable: "$blue".
-        on line 19 of /Users/Zack/zelliott.github.io/_sass/publications.scss
+        on line 20 of /Users/Zack/zelliott.github.io/_sass/publications.scss
 
 Backtrace:
-/Users/Zack/zelliott.github.io/_sass/publications.scss:19
+/Users/Zack/zelliott.github.io/_sass/publications.scss:20
 /Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/script/variable.rb:49:in `_perform'
 /Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/script/node.rb:40:in `perform'
 /Users/Zack/.rvm/gems/ruby-2.1.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
@@ -81,4 +81,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$blue\".\A         on line 19 of /Users/Zack/zelliott.github.io/_sass/publications.scss"; }
+  content: "Syntax error: Undefined variable: \"$blue\".\A         on line 20 of /Users/Zack/zelliott.github.io/_sass/publications.scss"; }
