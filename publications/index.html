@@ -3,53 +3,52 @@ layout: page
 current: nav-5
 ---
 <h1><i class="fa fa-files-o"></i>Publications</h1>
+
 <h1 class="sub-h1"><i class="fa fa-angle-down"></i>2013</h1>
 <ul class="publications">
+{% for 13_publication in site.data.13_publications %}
     <li>
-        <span>Labov, W, I. Rosenfelder, and J. Fruehwald. 2013. One Hundred Years of Sound Change in Philadelphia: Linear Incrementation, Reversal, and Reanalysis. Language 89(1): 30.65.</span>
-        <a href="../pdfs/labovetal2013.pdf"><i class="fa fa-file-text-o"></i></a>
+        <span>{{ 13_publication.title }}</span>
+        <a href="{{ 13_publication.file }}"><i class="fa fa-file-text-o"></i></a>
     </li>
+{% endfor %}
 </ul>
+
 <h1 class="sub-h1"><i class="fa fa-angle-down"></i>2012</h1>
 <ul class="publications">
+{% for 12_publication in site.data.12_publications %}
     <li>
-        <span>The role of the lexicon in regular sound change Paper given at NWAV41, Bloomington, October 26, 2012.</span>
-        <a href="../pdfs/RLRSX.pptx"><i class="fa fa-file-text-o"></i></a>
+        <span>{{ 12_publication.title }}</span>
+        <a href="{{ 12_publication.file }}"><i class="fa fa-file-text-o"></i></a>
     </li>
-    <li>
-        <span>The sociolinguistic intersection of Spanish and English. James E. Alatis plenary talk at TESOL Convention, Philadelphia, March 29, 2012.</span>
-        <a href="../pdfs/TESOL.ppt"><i class="fa fa-file-text-o"></i></a>
-    </li>
+{% endfor %}
 </ul>
+
 <h1 class="sub-h1"><i class="fa fa-angle-down"></i>2011</h1>
+
 <h1 class="sub-h1"><i class="fa fa-angle-down"></i>2010</h1>
 <ul class="publications">
+{% for 10_publication in site.data.10_publications %}
     <li>
-        <span>What is to be learned. Keynote address at NELS 2010, Philadelphia, October 23, 2010.</span>
-        <a href="../pdfs/WTBL.pptx"><i class="fa fa-file-text-o"></i></a>
+        <span>{{ 10_publication.title }}</span>
+        <a href="{{ 10_publication.file }}"><i class="fa fa-file-text-o"></i></a>
     </li>
-    <li>
-        <span>Implications of sociolinguistic findings for phonological theory . PowerPoint presentation at the 18th Manchester Phonological Meeting, May 21, 2010.</span>
-        <a href="../pdfs/Manchester.pptx"><i class="fa fa-file-text-o"></i></a>
-    </li>
+{% endfor %}
 </ul>
+
 <h1 class="sub-h1"><i class="fa fa-angle-down"></i>2009</h1>
 <ul class="publications">
+{% for 09_publication in site.data.09_publications %}
     <li>
-        <span>Enigmas of uniformity. PowerPoint presentation for plenary session at NWAV38, Ottawa, Canada on Oct 24, 2009.</span>
-        <a href="../pdfs/EU.pptx"><i class="fa fa-file-text-o"></i></a>
+        <span>{{ 09_publication.title }}</span>
+        <a href="{{ 09_publication.file }}"><i class="fa fa-file-text-o"></i></a>
     </li>
-    <li>
-        <span>Sound change: the regular, the unconscious, the mysterious. PowerPoint presentation for plenary address at the Hermann Paul Colloquy at the Freiburg Institute for Advanced Studies, May 2009.</span>
-        <a href="../pdfs/SXRUM.ppt"><i class="fa fa-file-text-o"></i></a>
-    </li>
-    <li>
-        <span>Conditions for divergence and convergence in the micro-evolution of language. PowerPoint presentation of paper given at the panel on evolutionary models of change in linguistics and biology, Penn Linguistics Colloquium, March 27, 2009.</span>
-        <a href="../pdfs/Biology.ppt"><i class="fa fa-file-text-o"></i></a>
-    </li>
+{% endfor %}
 </ul>
+
 <h1 class="sub-h1"><i class="fa fa-angle-down"></i>2008</h1>
 <ul class="publications">
+{% for 08_publication in site.data.08_publications %}
     <li>
         <span>The cognitive consequences of linguistic change: Misunderstanding in every-day life." PowerPoint presentation for paper given at NWAV37, Houston, Nov 8 2008.</span>
         <a href="../pdfs/Misunder.ppt"><i class="fa fa-file-text-o"></i></a>
@@ -86,24 +85,28 @@ current: nav-5
         <span>The Cognitive Capacities of the Sociolinguistic Monitor. The PowerPoint presentation of a plenary address given at the Sociolinguistics Symposium 17 in Amsterdam on March 5, 2008.</span>
         <a href="../pdfs/SLM.SS17.ppt"><i class="fa fa-file-text-o"></i></a>
     </li>
+{% endfor %}
 </ul>
+
 <h1 class="sub-h1"><i class="fa fa-angle-down"></i>2007</h1>
 <ul class="publications">
+{% for 07_publication in site.data.07_publications %}
     <li>
-        <span>The Life History of Language Change. The PowerPoint presentation of a plenary address given at the International Congress of Historical Linguistics at Montreal on August 6, 2007.</span>
-        <a href="../pdfs/LHLC.ppt"><i class="fa fa-file-text-o"></i></a>
+        <span>{{ 07_publication.title }}</span>
+        <a href="{{ 07_publication.file }}"><i class="fa fa-file-text-o"></i></a>
     </li>
+{% endfor %}
 </ul>
+
 <h1 class="sub-h1"><i class="fa fa-angle-down"></i>2006</h1>
 <ul class="publications">
+{% for 06_publication in site.data.06_publications %}
     <li>
-        <span>Reducing the reading achievement gap for African American children. A PowerPoint presentation to the Fourth Annual Reading First Superintendents Summit Meeting in San Francisco, November 2, 2006.</span>
-        <a href="../pdfs/Summit.ppt"><i class="fa fa-file-text-o"></i></a>
+        <span>{{ 06_publication.title }}}</span>
+        <a href="{{ 06_publication.file }}"><i class="fa fa-file-text-o"></i></a>
     </li>
-    <li>
-        <span>Variation Theory and the Utility of Linguistics. A PowerPoint presentation to Faire Signe, a colloquium in honor of Pierre Encreve at Paris on October 18, 2006.</span>
-        <a href="../pdfs/Encreve.ppt"><i class="fa fa-file-text-o"></i></a>
-    </li>
+{% endfor %}
 </ul>
+
 <h1 class="sub-h1"><i class="fa fa-angle-down"></i>2005</h1>
 <h1 class="sub-h1"><i class="fa fa-angle-down"></i>2004</h1>
