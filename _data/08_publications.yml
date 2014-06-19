@@ -1,1 +1,26 @@
-08_publications.yml
+- title: "The cognitive consequences of linguistic change: Misunderstanding in every-day life. PowerPoint presentation for paper given at NWAV37, Houston, Nov 8 2008."
+  file: ../pdfs/Misunder.ppt
+
+- title: "Yankee Cultural Imperialism and the Northern Cities Shift,  PowerPoint presentation for paper given at Yale University, October 20, 2008."
+  file: ../pdfs/YCI.Yale.ppt
+
+- title: "Language Change in America. Penn Humanities Forum lecture at Harrison Auditorium, October 15, 2008"
+  file: ../pdfs/PennHF.ppt
+
+- title: "Where is Southern English heading? Pressures from North, South, East and West.  PowerPoint presentation for talk delivered at 'Linguistics Week' at Duke University on October 9, 2008."
+  file: ../pdfs/Duke.ppt
+
+- title: "The Mysterious Uniformity of the Inland North. PowerPoint presentation of plenary talk given at Methods XIII, Leeds, August 7, 2008."
+  file: ../pdfs/MUIN.ppt
+
+- title: "Isogloss configurations and the Architecture of Phonology: Nestling, Bundling and Diffusion. Power Point presenetation of Keynote paper at Workshop on Dialects as a Testing Ground for Theories of Language Change, Methods XIII, Leeds, April 8, 2008."
+  file: ../pdfs/NBD.ppt
+
+- title: "Return to the Obvious: The Ubiquity of Categorical Rules. The PowerPoint presentation of a talk given at the panel Panel on Usage-based and Rule-based approaches to phonological variation at the Sociolinguistics Symposium 17, Amsterdam, on March 4, 2008."
+  file: ../pdfs/UCR.ppt
+
+- title: "Defining the Site of Linguistic Variation. The PowerPoint presentation of a talk given at the workshop on Locating Variabiliety: Formal Approaches at UMass Amherst on April 25, 2008."
+  file: ../pdfs/LocVar.ppt
+
+- title: "The Cognitive Capacities of the Sociolinguistic Monitor. The PowerPoint presentation of a plenary address given at the Sociolinguistics Symposium 17 in Amsterdam on March 5, 2008."
+  file: ../pdfs/SLM.SS17.ppt
