@@ -25,6 +25,14 @@ current: nav-5
 </ul>
 
 <h1 class="sub-h1"><i class="fa fa-angle-down"></i>2011</h1>
+<ul class="publications">
+{% for 11_publication in site.data.11_publications %}
+    <li>
+        <span>{{ 11_publication.title }}</span>
+        <a href="{{ 11_publication.file }}"><i class="fa fa-file-text-o"></i></a>
+    </li>
+{% endfor %}
+</ul>
 
 <h1 class="sub-h1"><i class="fa fa-angle-down"></i>2010</h1>
 <ul class="publications">
@@ -70,7 +78,7 @@ current: nav-5
 <ul class="publications">
 {% for 06_publication in site.data.06_publications %}
     <li>
-        <span>{{ 06_publication.title }}}</span>
+        <span>{{ 06_publication.title }}</span>
         <a href="{{ 06_publication.file }}"><i class="fa fa-file-text-o"></i></a>
     </li>
 {% endfor %}
@@ -78,3 +86,28 @@ current: nav-5
 
 <h1 class="sub-h1"><i class="fa fa-angle-down"></i>2005</h1>
 <h1 class="sub-h1"><i class="fa fa-angle-down"></i>2004</h1>
+<h1 class="sub-h1"><i class="fa fa-angle-down"></i>2003</h1>
+
+<h1 class="sub-h1"><i class="fa fa-angle-down"></i>2002</h1>
+<ul class="publications">
+{% for 02_publication in site.data.02_publications %}
+    <li>
+        <span>{{ 02_publication.title }}</span>
+        <a href="{{ 02_publication.file }}"><i class="fa fa-file-text-o"></i></a>
+    </li>
+{% endfor %}
+</ul>
+
+<h1 class="sub-h1"><i class="fa fa-angle-down"></i>2001</h1>
+<h1 class="sub-h1"><i class="fa fa-angle-down"></i>2000</h1>
+<h1 class="sub-h1"><i class="fa fa-angle-down"></i>1999</h1>
+
+<h1 class="sub-h1"><i class="fa fa-angle-down"></i>1998</h1>
+<ul class="publications">
+{% for 98_publication in site.data.98_publications %}
+    <li>
+        <span>{{ 98_publication.title }}</span>
+        <a href="{{ 98_publication.file }}"><i class="fa fa-file-text-o"></i></a>
+    </li>
+{% endfor %}
+</ul>
