@@ -99,6 +99,15 @@ current: nav-5
 </ul>
 
 <h1 class="sub-h1"><i class="fa fa-angle-down"></i>2001</h1>
+<ul class="publications">
+{% for 01_publication in site.data.01_publications %}
+    <li>
+        <span>{{ 01_publication.title }}</span>
+        <a href="{{ 01_publication.file }}"><i class="fa fa-file-text-o"></i></a>
+    </li>
+{% endfor %}
+</ul>
+
 <h1 class="sub-h1"><i class="fa fa-angle-down"></i>2000</h1>
 <h1 class="sub-h1"><i class="fa fa-angle-down"></i>1999</h1>
 
