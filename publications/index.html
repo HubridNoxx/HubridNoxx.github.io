@@ -120,3 +120,33 @@ current: nav-5
     </li>
 {% endfor %}
 </ul>
+
+<h1 class="sub-h1"><i class="fa fa-angle-down"></i>1997</h1>
+<ul class="publications">
+{% for 97_publication in site.data.97_publications %}
+    <li>
+        <span>{{ 97_publication.title }}</span>
+        <a href="{{ 97_publication.file }}"><i class="fa fa-file-text-o"></i></a>
+    </li>
+{% endfor %}
+</ul>
+
+<h1 class="sub-h1"><i class="fa fa-angle-down"></i>1996</h1>
+<ul class="publications">
+{% for 96_publication in site.data.96_publications %}
+    <li>
+        <span>{{ 96_publication.title }}</span>
+        <a href="{{ 96_publication.file }}"><i class="fa fa-file-text-o"></i></a>
+    </li>
+{% endfor %}
+</ul>
+
+<h1 class="sub-h1"><i class="fa fa-angle-down"></i>1995</h1>
+<ul class="publications">
+{% for 95_publication in site.data.95_publications %}
+    <li>
+        <span>{{ 95_publication.title }}</span>
+        <a href="{{ 95_publication.file }}"><i class="fa fa-file-text-o"></i></a>
+    </li>
+{% endfor %}
+</ul>
