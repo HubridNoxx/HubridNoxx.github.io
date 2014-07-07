@@ -4,6 +4,16 @@ current: nav-5
 ---
 <h1><i class="fa fa-files-o"></i>Publications</h1>
 
+<h1 class="sub-h1"><i class="fa fa-angle-down"></i>2014</h1>
+<ul class="publications">
+{% for 14_publication in site.data.14_publications %}
+    <li>
+        <span>{{ 14_publication.title }}</span>
+        <a href="{{ 14_publication.file }}"><i class="fa fa-file-text-o"></i></a>
+    </li>
+{% endfor %}
+</ul>
+
 <h1 class="sub-h1"><i class="fa fa-angle-down"></i>2013</h1>
 <ul class="publications">
 {% for 13_publication in site.data.13_publications %}
